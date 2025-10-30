@@ -37,6 +37,15 @@ const Sidebar = () => {
       </nav>
       
       <div className="absolute bottom-4 left-4 right-4">
+        <a
+          href="https://buymeacoffee.com/liran80v"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center justify-center space-x-2 bg-yellow-500 hover:bg-yellow-600 text-gray-900 font-medium py-2 px-4 rounded-lg transition-colors duration-200 mb-3"
+        >
+          <span>☕</span>
+          <span>Buy me a coffee</span>
+        </a>
         <div className="text-xs text-gray-500 text-center">
           Built with React & Tailwind
         </div>
